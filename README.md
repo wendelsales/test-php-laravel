@@ -33,9 +33,13 @@ Retorno esperado em caso de sucesso.
 {
     "message": "Sucesso!",
     "data": {
-    "email": "exampleTest@hotmail.com",
-    "password": "123456789"
+        "email": "exampleTest@hotmail.com",
+        "password": "123456789"
     }
 }
 ```
 
+# Diferenciais do sistema
+    - Utilização de camada de Services para acoplar regra de negócio.
+    - Utilização de userRequest para validação de campos da request.
+    - Utilização de Middleware para autenticação do usuário.
