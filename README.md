@@ -23,5 +23,19 @@ https://localhost:8000
 
 Essa rota acessa o formulário de login
 
+```php
+https://localhost:8000/api/user/{id}   (Substituir {id} pelo id do usuário)
+```
 
+Retorno esperado em caso de sucesso.
+
+```json
+{
+    "message": "Sucesso!",
+    "data": {
+    "email": "exampleTest@hotmail.com",
+    "password": "123456789"
+    }
+}
+```
 
