@@ -3,5 +3,26 @@
 # Requisitos para funcionamento do projeto
    - "php": "^8.0.2"
    - Extensões e módulos para php8.
+   - Instação do laravel 9 e composer.
+
+# Instalação (Comandos)
+    - composer install
+    - php artisan key:generate
+    - Fazer as configurações do .env
+    - php artisan migrate
+    - php artisan db:seed --class=UserSeeder (Irá gerar um usuário padrão para testes)
+    - php artisan serve (Irá subir o ambiente do seridor Laravel)
+    
+   
+# Rotas de acesso 
+
+````
+```
+https://localhost:8000
+```
+````
+
+Essa rota acessa o formulário de login
+
 
 
