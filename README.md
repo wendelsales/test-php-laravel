@@ -39,7 +39,7 @@ Retorno esperado em caso de sucesso.
 }
 ```
 
-# Diferenciais do sistema
-    - Utilização de camada de Services para acoplar regra de negócio.
+# Recursos utilizados no sistema
+    - Utilização de camada de Services para desacoplar regra de negócio do controller.
     - Utilização de userRequest para validação de campos da request.
     - Utilização de Middleware para autenticação do usuário.
